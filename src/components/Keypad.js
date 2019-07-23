@@ -10,7 +10,7 @@ export default class Keypad extends React.Component {
     render() {
         return (
             <div>
-                <input type='text' onKeyUp={() => {this.handleKey()}} />
+                <input type="text" onKeyUp={() => {this.handleKey()}} />
             </div>
         )
     }
